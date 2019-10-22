@@ -11,4 +11,5 @@ let File = new Schema({
 },{
     collection: 'fileDetail'
 });
+
 module.exports = mongoose.model('File', File);

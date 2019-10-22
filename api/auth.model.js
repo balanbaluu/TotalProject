@@ -11,5 +11,7 @@ let Auth = new Schema({
   }
 },{
     collection: 'authDetail'
-});
+});  
+
+
 module.exports = mongoose.model('Auth', Auth);

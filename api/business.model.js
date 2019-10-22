@@ -16,4 +16,5 @@ let Business = new Schema({
 },{
     collection: 'schoolDetail'
 });
+
 module.exports = mongoose.model('Business', Business);
